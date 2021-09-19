@@ -9,5 +9,5 @@ ip_address = socket.gethostbyname(hostname)
 
 
 def index(request):
-    return HttpResponse(ip_address)
+    return HttpResponse(ip_address+"\n")
 
